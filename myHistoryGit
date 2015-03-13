@@ -1,0 +1,500 @@
+   25  cd C/
+   26  ls
+   27  ./life
+   28  ./life.openmp 
+   29  make
+   30  less README 
+   31  ls
+   32  less life.c 
+   33  less Makefile 
+   34  ls
+   35  ./life.serial 
+   36  emacs -nw life.c
+   37  cd ..
+   38  ls
+   39  cd ..
+   40  ls
+   41  cd[2~OHOH
+   42  ls
+   43  cd Galaxsee_HPC_Mod1_Archive/
+   44  ls
+   45  ls -al
+   46  cd GalaxSeeHPC/
+   47  ls
+   48  less nbody.c 
+   49  ls
+   50  less Makefile 
+   51  ls
+   52  less researchlink
+   53  research/home/haboudj/jsimonson5/research/pppProject/ppptool/dissertation-project/working/ppp-core/src 
+   54  cd research/home/haboudj/jsimonson5/research/pppProject/ppptool/dissertation-project/working/ppp-core/src 
+   55  w
+   56  exit
+   57  research/home/haboudj/jsimonson5/research/pppProject/ppptool/dissertation-project/working/ppp-core/src 
+   58  cd research/home/haboudj/jsimonson5/research/pppProject/ppptool/dissertation-project/working/ppp-core/src 
+   59  cd ../../../
+   60  ls
+   61  cd release/
+   62  ls
+   63  cd usr/
+   64  ls
+   65  cd Linux/
+   66  ls
+   67  cd 2.6/
+   68  ls
+   69  cd x86_64/
+   70  ls
+   71  cd lib/
+   72  exit
+   73  cd research/home/haboudj/jsimonson5/research/pppProject/ppptool/dissertation-project/working/ppp-core/src 
+   74  cd ../../
+   75  ls
+   76  cd dineroIV/
+   77  ls
+   78  ls -al ref.*
+   79  ls -al ref.*emacs -nw ref.c
+   80  emacs -nw ref.c
+   81  make libd4.a 
+   82  emacs -nw ref.c
+   83  make libd4.a 
+   84  emacs -nw ref.c
+   85  make libd4.a 
+   86  emacs -nw ref.c
+   87  make libd4.a 
+   88  emacs -nw ref.c
+   89  ls d4replaceline.h
+   90  less d4replaceline.h
+   91  emacs -nw d4replaceline.h
+   92  ls *.cpp
+   93  less d4replaceline.cpp 
+   94  exit
+   95  w
+   96  ls
+   97  cd teaching/
+   98  ls
+   99  cd seProgs/
+  100  ls
+  101  ls -al
+  102  mkdir MakeTools
+  103  ls
+  104  cp *.cpp MakeTools/
+  105  cp *.h MakeTools/
+  106  cd MakeTools/
+  107  ls
+  108  less hello.cpp 
+  109  less factorial.cpp 
+  110  less functions.h 
+  111  g++ *.cpp functions.h -o main
+  112  whereis g++
+  113  emacs -nw main.cpp 
+  114  g++ *.cpp functions.h -o main
+  115  emacs -nw main.cpp 
+  116  g++ *.cpp functions.h -o main
+  117  emacs -nw hello.cpp 
+  118  ls
+  119  less factorial.cpp 
+  120  g++ *.cpp functions.h -o main
+  121  ./main 
+  122  ls
+  123  emacs -nw Makefile
+  124  make all
+  125  emacs -nw Makefile
+  126  make all
+  127  ls
+  128  w
+  129  cd /etc/
+  130  ls
+  131  less gai.conf 
+  132  exit
+  133  cd teaching/seProgs/MakeTools/
+  134  ls
+  135  less Makefile
+  136  ls Make*
+  137  ls
+  138  w
+  139  exit
+  140  cd teaching/
+  141  ls
+  142  cd seProgs/
+  143  ls
+  144  cd MakeTools/
+  145  ls
+  146  cd teaching/
+  147  ls
+  148  cd seProgs/
+  149  ls
+  150  cd MakeTools/
+  151  ls
+  152  cd ..
+  153  mkdir Maketools2
+  154  cd Maketools2/
+  155  ls
+  156  touch add.c sub.c mult.c div.c calculator.c
+  157  emacs add.c sub.c
+  158  emacs add.c mult.c
+  159  emacs div.c mult.c
+  160  emacs div.c calculator.c 
+  161  ls
+  162  gcc -g -Wall *c -o calculator
+  163  emacs mult.c div.c
+  164  gcc -g -Wall *c -o calculator
+  165  emacs sub.c
+  166  emacs calculator.c
+  167  gcc -g -Wall *c -o calculator
+  168  emacs -nw add.c
+  169  gcc -g -Wall *c -o calculator
+  170  clear
+  171  gcc -g -Wall *c -o calculator
+  172  less mult.c
+  173  emacs mult.c
+  174  gcc -g -Wall *c -o calculator
+  175  ls
+  176  ./calculator 
+  177  emacs -nw sub.c
+  178  gcc -g -Wall *c -o calculator
+  179  emacs -nw add.c sub.c mult.c div.c calculator.c
+  180  gcc -g -Wall *c -o calculator
+  181  gcc -g *c -o calculator
+  182  ls
+  183  ./calculator 
+  184  emacs Makefile
+  185  make
+  186  emacs Makefile
+  187  make
+  188  emacs Makefile
+  189  make
+  190  make calculator
+  191  emacs Makefile
+  192  gcc -c add.c
+  193  gcc -c sub.c
+  194  clear
+  195  ls
+  196  rm *~
+  197  ls
+  198  less add.c
+  199  less calculator.c
+  200  less Makefile 
+  201  exit
+  202  cd teaching/seProgs/Maketools2/
+  203  ls
+  204  clear
+  205  ls
+  206  rm *.o
+  207  ls
+  208  rm calculator
+  209  ls
+  210  less add.c 
+  211  less sub.c 
+  212  less div.c 
+  213  less mult.c 
+  214  less calculator.c 
+  215  clear
+  216  gcc -g -Wall *.c -o calculator
+  217  gcc -g *.c -o calculator
+  218  clear
+  219  gcc -g *.c -o calculator
+  220  ls
+  221  ./calculator 
+  222  emacs -nw add.c
+  223  emacs -nw calculator.c
+  224  gcc -g *.c -o calculator
+  225  ./calculator 
+  226  less Makefile 
+  227  make
+  228  make All
+  229  make clean
+  230  ls
+  231  make
+  232  make clean
+  233  ls
+  234  clear
+  235  ls
+  236  rm *~
+  237  ls
+  238  make
+  239  gcc -c add.c 
+  240  ls
+  241  rm Makefile 
+  242  make
+  243  emacs -nw Makefile
+  244  ls
+  245  less \#Makefile# 
+  246  emacs -nw Makefile
+  247  clear
+  248  mkdir Tests
+  249  cd Tests/
+  250  touch add.c sub.c div.c mult.c
+  251  ls
+  252  ls -al
+  253  emacs -nw add.c div.c 
+  254  ls
+  255  ls -al
+  256  emcs -n sub.c  add.c
+  257  emacs -n sub.c  add.c
+  258  emacs -nw sub.c  add.c
+  259  ls -al
+  260  cd ..
+  261  ls
+  262  make
+  263  ls -al
+  264  make
+  265  ./calculator 
+  266  less calculator.c
+  267  less add.c
+  268  make>Makefile1
+  269  less Makefile1
+  270  clear
+  271  history
+  272  history>myHistory
+  273  clear
+  274  ls
+  275  emacs Makefile
+  276  make
+  277  make calyculator 
+  278  emacs Makefile
+  279  clear
+  280  su
+  281  clear
+  282  ls
+  283  emacs -nw Makefile
+  284  exit
+  285  cd teaching/seProgs/
+  286  ls
+  287  cd Maketools2/
+  288  ls
+  289  cp Makefile Makefile5
+  290  emacs Makefile
+  291  ls
+  292  ls *.c
+  293  make clean
+  294  make calc
+  295  less Makefile
+  296  make calc
+  297  ls *.c
+  298  which make
+  299  ls Makefile
+  300  ls Mak*
+  301  less Makefile5
+  302  emacs Makefile5
+  303  cp Makefile5 Makefile
+  304  make
+  305  less Makefile
+  306  emacs Makefile
+  307  make
+  308  exit
+  309  cd research/home/haboudj/jsimonson5/research/pppProject/ppptool/dissertation-project/working/ppp-core/src 
+  310  cd ../../
+  311  ls
+  312  cd dineroIV/
+  313  ls -al ref*
+  314  emacs -nw ref.c
+  315  ls *.h
+  316  less d4replaceline.h
+  317  ls *.h
+  318  less d4hooks.h 
+  319  ls *.h
+  320  less d4.h
+  321  nano d4.h
+  322  exit
+  323  cd research/home/haboudj/jsimonson5/research/pppProject/ppptool/dissertation-project/working/ppp-core/src 
+  324  ls
+  325  clear
+  326  make
+  327  make clean
+  328  make maindrvB
+  329  ls -al main*
+  330  ls -al dr*
+  331  gdb maindrvB 
+  332  exit
+  333  cd research/home/haboudj/jsimonson5/research/pppProject/ppptool/dissertation-project/working/ppp-core/src 
+  334  cd ../../../
+  335  ls
+  336  cd release/
+  337  ls
+  338  cd usr/
+  339  ls
+  340  cd Linux/
+  341  ls
+  342  cd 2.6/
+  343  ls
+  344  cd x86_64/
+  345  ls
+  346  cd lib/
+  347  ls
+  348  exit
+  349  less researchlink
+  350  cd research/home/haboudj/jsimonson5/research/pppProject/ppptool/dissertation-project/working/ppp-core/src 
+  351  ls -al
+  352  ls d4replaceline*
+  353  ls -al d4replaceline*
+  354  ls *.h
+  355  less cachemodule.h
+  356  ls *.h
+  357  less baseSysObj.h
+  358  exit
+  359  mail
+  360  ls
+  361  clear
+  362  su
+  363  whereis mpi.h
+  364  which mpirun
+  365  whereis mpirun
+  366  whereis mpiexec
+  367  mkdir HPC
+  368  cd HPC
+  369  emacs -nw myMPIProg.c
+  370  ls
+  371  mpicc -o mpitest myMPIProg.c 
+  372  ls
+  373  ./mpitest 
+  374  srun -n4 mpitest 
+  375  w
+  376  adduser krishnaV
+  377  su
+  378  exit
+  379  ls
+  380  cd HPC
+  381  ls
+  382  less myMPIProg.c 
+  383  mpicc -o mpitest myMPIProg.c 
+  384  ./mpitest 4
+  385  less myMPIProg.c 
+  386  ls
+  387  mpicc -o mpitest myMPIProg.c 
+  388  mpiexec -n 4 mpitest 
+  389  ./mpiexec -n 4 mpitest 
+  390  mpiexec -n 4 ./mpitest 
+  391  cd
+  392  su
+  393  exit
+  394  whereis git
+  395  git
+  396  less researchlink
+  397  cd research/home/haboudj/jsimonson5/research/pppProject/ppptool/dissertation-project/working/ppp-core/src 
+  398  cd ../../../
+  399  ls
+  400  cd release/
+  401  ls
+  402  cd usr/Linux/2.6/x86_64/lib/
+  403  ls
+  404  ls -al lib*
+  405  exit
+  406  cd research/home/haboudj/jsimonson5/research/pppProject/ppptool/dissertation-project/working/ppp-core/src 
+  407  make
+  408  make maindrvB
+  409  make clean
+  410  make maindrvB
+  411  gdb maindrvB 
+  412  make maindrvB
+  413  make clean
+  414  make maindrvB
+  415  gdb maindrvB 
+  416  exit
+  417  less researchlink
+  418  cd research/home/haboudj/jsimonson5/research/pppProject/ppptool/dissertation-project/working/ppp-core/src 
+  419  cd ../../
+  420  ls
+  421  cd dineroIV/
+  422  ls -al ref*
+  423  emacs -nw ref.c
+  424  make libd4.a 
+  425  emacs -nw ref.c
+  426  make libd4.a 
+  427  emacs -nw ref.c
+  428  make libd4.a 
+  429  emacs -nw ref.c
+  430  make libd4.a 
+  431  emacs -nw ref.c
+  432  make libd4.a 
+  433  emacs -nw ref.c
+  434  make libd4.a 
+  435  emacs -nw ref.c
+  436  make libd4.a 
+  437  cp libd4.a ~/research/home/haboudj/jsimonson5/research/pppProject/ppptool/dissertation-project/release/usr/Linux/2.6/x86_64/lib$ 
+  438  cp libd4.a ~/research/home/haboudj/jsimonson5/research/pppProject/ppptool/dissertation-project/release/usr/Linux/2.6/x86_64/lib
+  439  emacs -nw ref.c
+  440  make libd4.a 
+  441  emacs -nw ref.c
+  442  make libd4.a 
+  443  emacs -nw ref.c
+  444  make libd4.a 
+  445  emacs -nw ref.c
+  446  make libd4.a 
+  447  history
+  448  cp libd4.a ~/research/home/haboudj/jsimonson5/research/pppProject/ppptool/dissertation-project/release/usr/Linux/2.6/x86_64/lib
+  449  exit
+  450  ls
+  451  less researchlink
+  452  cd research/home/haboudj/jsimonson5/research/pppProject/ppptool/dissertation-project/working/ppp-core/src
+  453  ls not*
+  454  ls -al not*
+  455  cd research/home/haboudj/jsimonson5/research/pppProject/ppptool/dissertation-project/working/ppp-core/src 
+  456  cd ../../../
+  457  ls
+  458  cd working/dineroIV/
+  459  emacs -nw ref.c
+  460  make libd4.a 
+  461  emacs -nw ref.c
+  462  make libd4.a 
+  463  emacs -nw ref.c
+  464  make libd4.a 
+  465  emacs -nw ref.c
+  466  make libd4.a 
+  467  emacs -nw ref.c
+  468  make libd4.a 
+  469  emacs -nw ref.c
+  470  make libd4.a 
+  471  emacs -nw ref.c
+  472  make libd4.a 
+  473  ls -al libd4.a
+  474  cp libd4.a ~/research/home/haboudj/jsimonson5/research/pppProject/ppptool/dissertation-project/release/usr/Linux/2.6/x86_64/lib$ 
+  475  ls
+  476  ls -al
+  477  ls -al|less
+  478  cp libd4.a ~/research/home/haboudj/jsimonson5/research/pppProject/ppptool/dissertation-project/release/usr/Linux/2.6/x86_64/lib$ 
+  479  cp libd4.a ~/research/home/haboudj/jsimonson5/research/pppProject/ppptool/dissertation-project/release/usr/Linux/2.6/x86_64/lib 
+  480  exit
+  481  less researchlink
+  482  cd research/home/haboudj/jsimonson5/research/pppProject/ppptool/dissertation-project/working/ppp-core/src 
+  483  ls
+  484  ls -al d4replaceline.cpp
+  485  cp d4replaceline.cpp d4replaceline.cpp.old.031115
+  486  emacs -nw d4replaceline.cpp
+  487  make
+  488  gdb maindrvB 
+  489  exit
+  490  cd research/home/haboudj/jsimonson5/research/pppProject/ppptool/dissertation-project/working/ppp-core/src 
+  491  cd ../../../release/
+  492  ls
+  493  cd usr/Linux/2.6/x86_64/lib/
+  494  ls
+  495  ls -al
+  496  ls -al 
+  497  ls -al
+  498  exit
+  499  cd research/home/haboudj/jsimonson5/research/pppProject/ppptool/dissertation-project/working/ppp-core/src 
+  500  exit
+  501  which git
+  502  ls
+  503  mkdir myGit
+  504  cd myGit/
+  505  clear
+  506  git init
+  507  ls
+  508  ls -al
+  509  git help
+  510  history
+  511  emacs -nw calculator.c
+  512  git add .
+  513  git comit -m " this is a new file "
+  514  git commit -m " this is a new file "
+  515  git config --global user.name " Hyacinthe Aboudja "
+  516  git config --global user.email haboudja@okcu.edu
+  517  git status
+  518  git clone https://github.com/haboudja/myNewRepo
+  519  git push origin master
+  520  git remote add origin https://github.com/haboudja/myNewRepo
+  521* git pull 
+  522  git pull https://github.com/haboudja/myNewRepo
+  523  history
+  524  history>myHistoryGit
